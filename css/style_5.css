@@ -1,0 +1,37 @@
+:host {
+    all: initial
+}
+
+.gf-scroll-remove::-webkit-scrollbar {
+    border-radius-bottom-right: 15px
+}
+
+button {
+    cursor: pointer;
+    transition: transform 0.1s ease
+}
+
+button:active {
+    transform: scale(0.98)
+}
+
+.give-freely-close-button:hover {
+    opacity: 0.7
+}
+
+input[type="radio"] {
+    margin-right: 8px
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 1em 0
+}
+
+@media (max-width:600px),
+(max-height:480px) {
+    #give-freely-checkout-popup {
+        display: none !important
+    }
+}
